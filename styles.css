@@ -1,0 +1,137 @@
+LANDING PAGE CSS
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.login-btn {
+    background: #3498db;
+    color: white;
+}
+
+.get-started-btn {
+    background: #e74c3c;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 0;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    font-size: 18px;
+}
+
+.feature-card i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #f1c40f;
+}
+
+/* How It Works */
+.how-it-works {
+    padding: 60px 0;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.step {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    font-size: 18px;
+}
+
+.step i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #27ae60;
+}
+
+/* FAQs Section */
+.faqs {
+    padding: 60px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.faq-item {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px auto;
+    width: 60%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+}
