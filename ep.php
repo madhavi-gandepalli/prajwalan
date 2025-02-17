@@ -13,13 +13,14 @@ if ($conn->connect_error) {
 
 // Check if the user is logged in
 //if (!isset($_SESSION['email']) || empty($_SESSION['email'])) {
- //   header("Location: vdocs.php"); // Redirect to login page if session is missing
-  //  exit();
+   // header("Location: vdocs.php"); // Redirect to login page if session is missing
+   //exit();
 //}
+$_SESSION['email']='madhavigandepalli23@gmail.com';
 
 // Get the user's email from the session
 $email = urlencode($_SESSION['email']); 
-$qr_url = "http://localhost/hackthon/triveni.php? email=" . $email;
+$qr_url = "http://localhost/triveni.php";
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +53,7 @@ $qr_url = "http://localhost/hackthon/triveni.php? email=" . $email;
         });
     </script>
 
-    <p><a href="<?php echo $qr_url; ?>" target="_blank">Click here to view documents</a></p>
+    <p><a href="triveni.php">Click here to view documents</a></p>
 
 </body>
 </html>
